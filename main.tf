@@ -11,7 +11,7 @@ module "cloud_sql" {
     sql_machine_type = "db-n1-standard-1"
     database_version = "MYSQL_5_7"
     region = var.region 
-    availability_type =var.availability_type
+   # availability_type =var.availability_type
     
 
 
