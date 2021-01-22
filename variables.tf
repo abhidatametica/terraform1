@@ -1,6 +1,6 @@
-variable "project name" {}
+variable "project_name" {}
 
-variable "region " {
+variable "region" {
     default = "us-central1"
 }
 
@@ -15,3 +15,9 @@ variable "availability_type" {
 variable "composer_machine_type"{
  default = "n1-standard-1"
 }
+
+variable "network_name"{
+    
+}
+
+variable "subnet" {}
