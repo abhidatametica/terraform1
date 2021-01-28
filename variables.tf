@@ -17,7 +17,11 @@ variable "composer_machine_type"{
 }
 
 variable "network_name"{
-    
+
 }
 
 variable "subnet" {}
+
+variable "network_tag"{
+
+}
