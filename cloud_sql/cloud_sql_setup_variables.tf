@@ -11,4 +11,3 @@ variable "database_version" {}
 variable "sql_machine_type" {}
 
 variable "disk_size" {}
-
